@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\vinoy\OneDrive\Desktop\ProjectDemos</_PublishTargetUrl>
+    <History>True|2025-04-28T05:10:21.4536450Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Staff.xml">
+      <publishTime>04/27/2025 18:13:17</publishTime>
+    </File>
+    <File Include="bin/Assignment5.dll">
+      <publishTime>04/27/2025 22:10:20</publishTime>
+    </File>
+    <File Include="bin/Assignment5.pdb">
+      <publishTime>04/27/2025 22:10:20</publishTime>
+    </File>
+    <File Include="bin/FrankEncrypt.dll">
+      <publishTime>04/27/2025 22:10:19</publishTime>
+    </File>
+    <File Include="bin/FrankEncrypt.pdb">
+      <publishTime>04/27/2025 22:10:19</publishTime>
+    </File>
+    <File Include="bin/UtilityLib.dll">
+      <publishTime>04/27/2025 22:10:19</publishTime>
+    </File>
+    <File Include="bin/UtilityLib.pdb">
+      <publishTime>04/27/2025 22:10:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/27/2025 21:15:00</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/27/2025 16:03:19</publishTime>
+    </File>
+    <File Include="Mathservice.asmx">
+      <publishTime>04/27/2025 02:29:41</publishTime>
+    </File>
+    <File Include="Member.aspx">
+      <publishTime>04/27/2025 21:00:01</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>04/27/2025 17:51:05</publishTime>
+    </File>
+    <File Include="Staff.aspx">
+      <publishTime>04/27/2025 20:20:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/27/2025 22:10:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\bin\Debug\FrankEncrypt.dll
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\bin\Debug\FrankEncrypt.pdb
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.csproj.AssemblyReference.cache
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.csproj.CoreCompileInputs.cache
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.dll
+C:\Users\frank\Downloads\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.pdb
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\bin\Debug\FrankEncrypt.dll
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\bin\Debug\FrankEncrypt.pdb
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.csproj.AssemblyReference.cache
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.csproj.CoreCompileInputs.cache
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.dll
+C:\Users\joey\Desktop\ASU\Assignment6\Assignment5\Assignment5\FrankEncrypt\obj\Debug\FrankEncrypt.pdb

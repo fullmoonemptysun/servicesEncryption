@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Average">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AverageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AverageResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sqrt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SqrtResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SqrtResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AverageSoapIn">
+    <wsdl:part name="parameters" element="tns:Average" />
+  </wsdl:message>
+  <wsdl:message name="AverageSoapOut">
+    <wsdl:part name="parameters" element="tns:AverageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SqrtSoapIn">
+    <wsdl:part name="parameters" element="tns:Sqrt" />
+  </wsdl:message>
+  <wsdl:message name="SqrtSoapOut">
+    <wsdl:part name="parameters" element="tns:SqrtResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MathserviceSoap">
+    <wsdl:operation name="Average">
+      <wsdl:input message="tns:AverageSoapIn" />
+      <wsdl:output message="tns:AverageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sqrt">
+      <wsdl:input message="tns:SqrtSoapIn" />
+      <wsdl:output message="tns:SqrtSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MathserviceSoap" type="tns:MathserviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Average">
+      <soap:operation soapAction="http://tempuri.org/Average" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sqrt">
+      <soap:operation soapAction="http://tempuri.org/Sqrt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MathserviceSoap12" type="tns:MathserviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Average">
+      <soap12:operation soapAction="http://tempuri.org/Average" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sqrt">
+      <soap12:operation soapAction="http://tempuri.org/Sqrt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Mathservice">
+    <wsdl:port name="MathserviceSoap" binding="tns:MathserviceSoap">
+      <soap:address location="https://localhost:44386/Mathservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MathserviceSoap12" binding="tns:MathserviceSoap12">
+      <soap12:address location="https://localhost:44386/Mathservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
