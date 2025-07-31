@@ -1,4 +1,4 @@
-Jia Jui Jang, Joseph Smirnoff, Vinnie Kumar  
+**2025** Vinnie Kumar  
 Web Application: http://webstrar30.fulton.asu.edu/page5/Default.aspx  
 
 TryIt table links to each component's section.
